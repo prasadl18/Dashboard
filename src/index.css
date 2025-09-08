@@ -32,7 +32,7 @@ code {
   box-shadow: 0 0 20px rgba(0,0,0,0.2);
   backdrop-filter: blur(10px); /* nice blur effect */
   min-width: 300px;
-  color: white; /* text color for contrast */
+  color: #333; /* text color for contrast */
 }
 
 .form-wrapper input {
