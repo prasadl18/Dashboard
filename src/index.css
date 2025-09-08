@@ -11,3 +11,55 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/*form animations*/
+
+.app-container {
+  position: relative;
+  height: 100vh; /* full screen */
+  width: 100%;
+  overflow: hidden;
+}
+
+.form-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.1); /* semi-transparent to see Aurora */
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  backdrop-filter: blur(10px); /* nice blur effect */
+  min-width: 300px;
+  color: white; /* text color for contrast */
+}
+
+.form-wrapper input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.form-wrapper button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #3A29FF;
+  color: white;
+  cursor: pointer;
+}
+
+.form-wrapper p {
+  text-align: center;
+  margin-top: 15px;
+  color: #333;
+}
+
+.form-wrapper span {
+  color: #ff94b4;
+  cursor: pointer;
+}
